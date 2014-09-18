@@ -1,3 +1,6 @@
+body{
+	margin: 0;
+}
 #navbar{
 	position: absolute;
 	top: 0;
@@ -25,7 +28,7 @@
 #navlinks a{
 	display: block;
 	width: 100px;
-	height: 49px;
+	height: 50px;
 	text-decoration: none;
 	font-weight: bold;
 	color: #ffffff;
@@ -35,4 +38,20 @@
 }
 #navlinks a:hover{
 	background-color: #333333;
+}
+#main{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	height: 300%;
+	background-image: url("images/grey_linen.jpg");
+}
+#content{
+	width: 60%;
+	height: 90%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 30px;
+	background-color: #ffffff;
 }
